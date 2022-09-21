@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+    /* padding: 20px 20px; */
+    text-align: center;
+}
+
+
+.content{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 375px;
+    background: white;
+}
+
+.desktop{
+    display: none;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.image{
+    border: 1px solid white ;
+    border-radius: 5px;
+    
+}
+.textup{
+     background-color: white;
+    
+}
+
+.perfume{
+    text-align: left;
+    color: rgb(141, 131, 131);
+    padding: 20px 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+.perfume2{
+    display: none;
+}
+
+.head{
+    padding: 5px 20px;
+    text-transform: capitalize; 
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+.head2{
+    display: none;
+}
+
+.up{
+    text-align: left;
+    color: rgb(141, 131, 131);
+    padding: 5px 20px; 
+    text-transform: capitalize; 
+    font-family: Montserrat;
+     font-weight: 700;
+}
+
+
+.up2{
+    display: none;
+}
+
+.price{
+    display: flex;
+    gap: 20px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+   font-family: Fraunces;
+    font-weight: 700;
+}
+
+
+span{
+    color: green;
+    font-size: 25px;
+    
+}
+
+strike{
+    color: rgb(141, 131, 131);
+    margin-top: 5px;
+}
+
+.order{
+     margin-bottom: 20px;
+     padding: 5px 20px
+     
+}
+
+.order2{
+    display: none;
+}
+
+.btn img{
+    width: 4%;
+   
+}
+
+.btn2 img{
+    display: none;
+}
+
+.btn{
+    background: rgba(19, 121, 19, 0.747);
+    padding: 10px 110px;
+    border-radius: 5px;
+
+}
+
+.btn2{
+    display: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+     padding-left: 10px;
+   
+}
+
+@media screen and (min-width:700px){
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+    display: block;
+    width: 1400px;
+    height: 610px;
+    border-radius: 5px;
+}
+
+
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image .desktop{
+    display: block;
+    width: 300px;
+}
+
+.image .textup{
+    border-radius: 5px;
+     background-color: white;
+    width: 1450px;
+}
+
+.perfume{
+    display: none;
+}
+
+.perfume2{
+    display: block;
+    text-align: left;
+    color: rgb(141, 131, 131);
+    padding:5px 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+.head{
+    display: none;
+}
+
+.head2{
+    display: block;
+    text-transform: capitalize;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+
+    padding: 5px 50px;
+    margin-top: 5px;
+}
+
+.up2{
+    display: block;
+    text-align: left;
+    color: rgb(141, 131, 131);
+    padding: 5px 50px; 
+    text-transform: capitalize; 
+    font-family: Montserrat;
+     font-weight: 700;
+    margin-top: 20px;
+   
+}
+
+.up{
+    display: none;
+}
+
+.price{
+    display: flex;
+    gap: 20px;
+    padding: 5px 50px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+     font-family: Fraunces;
+    font-weight: 700;
+}
+
+span{
+    color: green;
+    font-size: 25px;
+   
+}
+
+strike{
+    color: rgb(141, 131, 131);
+    margin-top: 5px;
+}
+
+.order2{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    position: relative;
+    
+}
+
+.order{
+   display: none;
+}
+
+.btn2 img{
+   width: 10%;
+  display: flex;
+  position: absolute;
+  top: 53%;
+  left: 15%;
+  
+}
+
+.btn img{
+    display: none;
+}
+
+.btn{
+    display: none;
+}
+
+.btn2{
+    display: block;
+   background: rgba(19, 121, 19, 0.747);
+   padding: 5px 50px;
+   border-radius: 5px;
+   margin-top: 35px;
+    padding-right: 30px;
+
+}
+
+.order2 a{
+    display: flex;
+   color: white;
+   text-decoration: none;
+  padding: 10px 60px;
+  text-align: center;
+}
+   
+}
+ 
+
+
+
+
+
